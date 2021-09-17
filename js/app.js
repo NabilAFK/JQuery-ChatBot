@@ -16,7 +16,7 @@ function send_message(message){
 
 // get the username
 function get_username(){
-    send_message('Hi, friend what is your name....?');
+    send_message('Yoo what');
 }
 
 // simple ai function
@@ -27,19 +27,19 @@ function ai(message){
         }
 
         if ((message.indexOf('how are you') >= 0) || (message.indexOf('about you') >= 0)){
-          send_message('Am okey, thanks for ask ' + '<i>' + username + '</i>');
+          send_message('I\'m good, thanks for asking ' + '<i>' + username + '</i>');
         }
 
         if ((message.indexOf('what is your name') >= 0) || (message.indexOf('name') >= 0)){
-          send_message('My name in ChatBox.. am here to chat with you..');
+          send_message('My name in ChatBot By Nabil.. I am here to chat with you..');
         }
 
         if ((message.indexOf('old') >= 0) || (message.indexOf('age') >= 0)){
-          send_message('I do not know how old i am.. am sorry..!!');
+          send_message('I am 11 years old!');
         }
 
         if ((message.indexOf('sex') >= 0) || (message.indexOf('love') >= 0)){
-          send_message('Am sorry i can not tell you about that.');
+          send_message('Sorry I am only 11, I cannot say anything about that. Pedo.');
         }
 
         if (message.indexOf('time') >= 0){
